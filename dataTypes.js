@@ -8,7 +8,7 @@ symbol=> it means uniqueness
 whenever we try to find the typeof null: it will give object
 and typeof undefine: it means undefine
 
-2. Non-primitive  - objects
+2. Non-primitive  - objects, functions, Arrays
 typeof Object // function
 typeof Class // function
 
