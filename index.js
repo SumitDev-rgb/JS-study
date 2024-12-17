@@ -3,9 +3,9 @@
 // function myArr(arr){
 // let arr1=[];
 //     for (let i = 0; i < arr.length; i++) {
-        
+
 //         for(let k = 0; k < arr[i].length; k++){
-//             arr1.push(arr[i][k]) 
+//             arr1.push(arr[i][k])
 //         }
 //     }
 //     return arr1;
@@ -32,8 +32,6 @@
 
 // console.log(reverse(str));
 
-
-
 // function fact(n){
 
 // let fc =1 ;
@@ -47,15 +45,23 @@
 // }
 // console.log(fact(4));
 
-let arr = [1,2,3,4]
+let arr = [1, 2, 3, 4];
 
-arr.forEach((num)=>{
-
-    return num*2;
-
+arr.forEach((num) => {
+  return num * 2;
 });
 console.log(arr);
 
 console.log("lets push this i am the hero");
 
-var t ="sumit";
+var s = 10;
+var s = 30;
+let v = 13;
+v = 20;
+const a = 20;
+
+console.log(a);
+console.log(v);
+console.log(s);
+
+
