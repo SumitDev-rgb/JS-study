@@ -6,7 +6,7 @@ below are some another examples
 console.log(null > 0); // false
 console.log(null == 0); // flase
 console.log(null >= 0); // true
-
+// comparision works differently in JS it treats ==, === differently but <, >, <=, >= treats differently
 console.log(undefined == 0);  // false
 console.log(undefined > 0);// false
 console.log(undefined < 0);// false
