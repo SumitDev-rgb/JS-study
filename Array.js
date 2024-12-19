@@ -16,7 +16,7 @@ const arr = [1,2,3,4,5]; //
 
 arr.push(7); // [ 1, 2, 3, 4, 5, 7 ]
 console.log(arr)
-// pop() removes the value from last index
+// pop() removes the value from last index and modified the original array
 arr.pop();
 console.log(arr); // [ 1, 2, 3, 4, 5 ]
 

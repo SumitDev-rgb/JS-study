@@ -20,11 +20,11 @@ console.log(location);
 // note:- JSON is also the same as Objects in JS but the main difference is te JSON objects will have no name and all the keys and values 
 // will be in string only see ex. below this is the json objects format. Here youa re seeing some error because we have not install some 
 // program to see the exact JSON file
-{
+// {
 
-"name":"rahul",
-"school":"baccho inter college",
-"lacation": "karahara",
-"distt":"Agra"
+// "name":"rahul",
+// "school":"baccho inter college",
+// "lacation": "karahara",
+// "distt":"Agra"
 
-}
+// }
