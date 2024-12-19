@@ -52,4 +52,52 @@ Object.freeze(newObj);
 newObj.duration = 40;
 console.log(newObj["duration"]); // outpur will be 35 only new values will not be added
 
-//  we can also add the function into the objects
+// *************** below how we can make objects as skeleton or using constructor *******************
+
+
+let kitchen = new Object(); // this is how we can declare objects as skeleton both types of declaration is fine nothing is changed
+// here we are creating a nestd object
+
+kitchen = {
+    ration : {
+
+        food:{
+            roti:"flour",
+            sabji:"oil",
+            masale:"all type available"
+        }
+
+    }
+}
+// below is how we can access the masale value
+
+console.log(kitchen.ration.food.masale); // all type avalibale
+// suppose if we are lookiing for any nested object inside and object and that object is not available than we can give ? with the object name
+// ex. if suppose food is available or not we dont know so here we can write see below
+// console.log(kitchen.ration.food?.masale);
+
+
+// how to merge two objects
+
+let obj1 = {
+    1:"s",
+    2:"u",
+    3:"m"
+}
+let obj2 = {
+    4:"i",
+    5:"t"
+    
+}
+
+let obj3 = Object.assign({}, obj1, obj2) // we can use assign method here to merge two or more objects
+let obj4 = {...obj1, ...obj2} // another way to merge two objects
+console.log(obj3);
+console.log(obj4);
+
+
+
+// how to get all keys and values of the  objects
+
+console.log(Object.keys(obj1)); // this will return all the keys but in array // [ '1', '2', '3' ]
+console.log(Object.values(obj2)); // this will return all the values but in array // [ 'i', 't' ]
