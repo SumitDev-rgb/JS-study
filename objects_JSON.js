@@ -11,7 +11,7 @@ location:"gurugram"
 
 const { teacher, location, name} = obj;
 
-// now all the values are destructured and will be refered by teacher, location and teacher only
+// now all the values are destructured and will be referred by teacher, location and teacher only
 console.log(name);
 console.log(teacher);
 console.log(location);

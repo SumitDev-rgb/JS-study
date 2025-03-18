@@ -30,7 +30,7 @@ create const variable with delcaration and initilization
 ex. const c=20;  // we have to declare it and initilize it at the same time
 
 
-there is also one more thing that whenever we car writing "use strict" with any code it means JS will treat our cade as newer version
+there is also one more thing that whenever we are writing "use strict" with any code it means JS will treat our cade as newer version
 
 Whenever we try t convert any thing if that thing is number it will convert into number
 true and false will convert to 1 and 0
@@ -45,6 +45,6 @@ console.log((3*5)/(2%2));// infinity
 */
 let a=25;
 let b=12;
-console.log(a%b);
+console.log(a/b);
 
 
