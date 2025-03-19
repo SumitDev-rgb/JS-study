@@ -5,7 +5,7 @@
 let person = {
     name : "sumit", // here name will always be processed as string
 age : 30,
-"full name": "sumit kumar",
+"full name": "sumit kumar", // we can write the key this way also because JS will understand all keys in string format so if you want you can write it this way also
 location: "agra"
 } // we can put any value here like another object or Array or anything
 
