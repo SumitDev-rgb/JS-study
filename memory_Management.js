@@ -19,4 +19,4 @@
 // let arr2 = arr;
 // so fi I make change in the value of arr2 those change will reflect into the value of arr as well
 // but there is one thing to remember is that all the variable of the on primitive data type will be stored in the stack memory 
-// only the values of the non data type will be stored in the heap memory
+// only the values of the non primitive data type will be stored in the heap memory

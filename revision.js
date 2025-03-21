@@ -22,3 +22,8 @@ function fg(){
     
 }
 console.log(typeof fg());
+
+((name)=>{
+    console.log(`"i am prameterized function" ${name}`);
+    
+})("sumit")
