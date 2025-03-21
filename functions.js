@@ -88,7 +88,7 @@ let sharma = (s,f)=>{
 // parameterized iife function but unnamed iife
 
 ((name)=>{
-    console.log("i am prameterized function",${name});
+    console.log(`"i am prameterized function",${name}`);
     
 })("sumit")
 
