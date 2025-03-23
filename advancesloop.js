@@ -61,7 +61,8 @@ const data = newArr.map((obj)=>{
 console.log(data);
 
 // lets iterate the values using filter : in this type of function we can pass a callback function but also put some condition and it also 
-// retrun the values same as map
+// retrun the values same as map and one more thing to remeber is callback function should not carry the () see below ex for any other 
+// higher oder function if it is written in chaining with the filter function
 
 const filArr = newArr.filter(fil => fil.age > 27)
                      .map(fil => `The person's name is ${fil.name}, age is ${fil.age}, and place of birth is ${fil.place}`);
