@@ -17,8 +17,8 @@ for (const index of arr1) { // here what is happening is from arr each value is 
     
 }
 // **********higher orderd function************
-//  there are some highr order function which means the function which takes the function or series of the call function in the arguments or return the function 
-// are claaed the higher order function
+//  there are some highr order function which means the function which takes the callbackfunction or series of the call function in the arguments or return the function 
+// are called the higher order function
 // there are some higher order function below
 // 1. forEach, filter, map, reduce
 // 1. forEach function it will iterate the values from the arr, object or the string and it does not return anything see ex below
@@ -48,7 +48,7 @@ const newArr = [
     }
 ]
 
-// lets iterate teh value from newArr using map it worsk same as forEach but the man diff is it return the values
+// lets iterate teh value from newArr using map it worsk same as forEach but the main diff is it return the values
 
 const data = newArr.map((obj)=>{
     // console.log(obj.name); // or we can write it below way
@@ -72,8 +72,8 @@ console.log(filArr);
 
 // reduce function: it also takes the arugement a callback function and it can also return but the main changes is here we have the two
 // parameters one is accumulator and second is currentvalue see below ex.
-// oin below ex what happenig is it will initilize the 0 value in the accumulator and 1 in curr after one itemrator sum of those two values 
-// will be assigned to accumulator that is 1 and 2 in currentvalue in thirs iteration 3 means sum of accu and curr will be assigned to acc 
+// in below ex what happenig is it will initilize the 0 value in the accumulator(we can initilize anything) and 1 in curr after one itemrator sum of those two values 
+// will be assigned to accumulator that is 1 and 2 in currentvalue in third iteration 3 means sum of accu and curr will be assigned to acc 
 // and so on so the sum of all the values in the array will be 24 and that will be assigned to redArr and will print it
 
 
