@@ -94,8 +94,26 @@ const newEven = even.filter((item) => item%2===0)
 console.log(newEven);
 
    
+// ****************** flat an array using flat methid and reduce method*******************
+// 1. using flat method
+
+let arrFlat = [1,[2,3,[4,5]], [6,7]]
 
 
+let flatArr = arrFlat.flat(Infinity);
+// console.log(flatArr);
+
+// 2. using reduce method
 
 
+ function flattenArr(arrFlat) {
+    return arrFlat.reduce((acc, curVal) => {
+      return Array.isArray(curVal) 
+        ? acc.concat(flattenArr(curVal))  // Recursive call to flatten nested arrays
+        : acc.concat(curVal);             // If not an array, add the current value
+    }, []);
+  }
 
+ console.log(flattenArr(arrFlat));
+ 
+  
